@@ -43,8 +43,6 @@ jobs:
             luci-app-mosdns
             luci-theme-argon
             luci-app-temp-status
-            luci-app-passwall
-            luci-app-passwall2
             luci-app-argon-config
             luci-app-tn-netports
 
