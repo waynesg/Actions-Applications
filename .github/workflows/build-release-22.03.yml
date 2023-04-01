@@ -1,7 +1,7 @@
 name: Openwrt Build Bot for 22.03
 on:
   push:
-    branches: master
+    branches: main
     paths:
       - '**'
       - '!README.md'
