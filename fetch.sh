@@ -10,9 +10,9 @@ cp -r sbwml-packages/luci-app-mosdns openwrt-packages/luci-app-mosdns
 cp -r sbwml-packages/v2dat openwrt-packages/v2dat
 rm -rf sbwml-packages
 
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall -b packages openwrt-packages/passwall
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall -b luci-smartdns-new-version openwrt-packages/luci-app-passwall
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2  openwrt-packages/luci-app-passwall2
+#git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall -b packages openwrt-packages/passwall
+#git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall -b luci-smartdns-new-version openwrt-packages/luci-app-passwall
+#git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2  openwrt-packages/luci-app-passwall2
 
 git clone --depth=1 https://github.com/immortalwrt/packages.git immortal-packages
 cp -r immortal-packages/net/mosdns openwrt-packages/mosdns
