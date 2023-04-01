@@ -1,0 +1,9 @@
+services:
+  sdk:
+    image: openwrtorg/sdk:arm_fa526-22.03.3
+    volumes:
+      - ./bin:/home/build/openwrt/bin
+      - ./build.sh:/home/build/openwrt/build.sh
+      - ./fetch.sh:/home/build/openwrt/fetch.sh
+    command: /home/build/openwrt/build.sh
+      
