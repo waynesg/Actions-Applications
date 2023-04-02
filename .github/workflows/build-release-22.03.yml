@@ -50,7 +50,7 @@ jobs:
       - name: Upload
         env:
           ARCH: ${{ matrix.arch }}
-          GITHUB_TOKEN: ${{ secrets.TOKEN }
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           BRANCH="packages/${ARCH::-2}"
           if [[ $ARCH =~ "snapshot" ]]; then
@@ -63,4 +63,4 @@ jobs:
           git config user.email "bot@github.com"
           git add .
           git commit -m "$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-          git push --force --quiet "https://$GITHUB_TOKEN@github.com/waynesg/Actions-Applications.git" HEAD:$BRANCH
+          git push --force --quiet "https://$GITHUB_TOKEN@github.com/waynesg/$GITHUB_REPOSITORY" HEAD:$BRANCH
