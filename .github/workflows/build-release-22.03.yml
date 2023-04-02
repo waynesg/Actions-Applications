@@ -38,9 +38,9 @@ jobs:
           INDEX: 1
           IGNORE_ERRORS: 1
           PACKAGES: |
-            natmap
-            mosdns
-            luci-app-mosdns
+            #natmap
+            #mosdns
+            #luci-app-mosdns
             luci-theme-argon
             luci-app-temp-status
             luci-app-argon-config
