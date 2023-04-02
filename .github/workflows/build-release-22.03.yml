@@ -58,8 +58,8 @@ jobs:
           cd bin/packages/*/action
           sudo chown runner:runner -R .
           git init
-          git config user.name "bot"
-          git config user.email "bot@github.com"
+          git config user.name "waynesg"
+          git config user.email "820910@qq.com"
           git add .
           git commit -m "$(TZ='Asia/Shanghai' date +@%Y%m%d)"
           git push --force --quiet "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY" HEAD:$BRANCH
