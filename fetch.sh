@@ -5,6 +5,7 @@ get_latest_release() {
 }
 mkdir openwrt-packages
 
+svn co https://github.com/waynesg/OpenWrt-Software/trunk/js/openwrt-diy/luabitop openwrt-packages/luabitop
 #git clone --depth=1 --branch v5 https://github.com/sbwml/luci-app-mosdns.git sbwml-packages
 #cp -r sbwml-packages/luci-app-mosdns openwrt-packages/luci-app-mosdns
 #cp -r sbwml-packages/v2dat openwrt-packages/v2dat
@@ -30,11 +31,11 @@ mkdir openwrt-packages
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config openwrt-packages/luci-app-argon-config
 
 #git clone --depth=1 https://github.com/gSpotx2f/luci-app-temp-status.git openwrt-packages/luci-app-temp-status
-git clone --depth=1 https://github.com/waynesg/luci-app-tn-netports.git openwrt-packages/luci-app-tn-netports
-git clone --depth=1 https://github.com/waynesg/luci-app-internet-detector.git waynesg
-cp -r waynesg/luci-app-internet-detector openwrt-packages/luci-app-internet-detector
-cp -r waynesg/internet-detector openwrt-packages/internet-detector
-rm -rf waynesg
+#git clone --depth=1 https://github.com/waynesg/luci-app-tn-netports.git openwrt-packages/luci-app-tn-netports
+#git clone --depth=1 https://github.com/waynesg/luci-app-internet-detector.git waynesg
+#cp -r waynesg/luci-app-internet-detector openwrt-packages/luci-app-internet-detector
+#cp -r waynesg/internet-detector openwrt-packages/internet-detector
+#rm -rf waynesg
 
 #git clone --depth=1 https://github.com/EkkoG/sdm.git openwrt-packages/sdm
 
