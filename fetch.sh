@@ -5,7 +5,7 @@ get_latest_release() {
 }
 mkdir openwrt-packages
 
-svn co https://github.com/waynesg/OpenWrt-Software/trunk/js/openwrt-diy/luabitop openwrt-packages/luabitop
+git clone -b js --depth 1 https://github.com/waynesg/OpenWrt-Software openwrt-packages/luabitop
 #git clone --depth=1 --branch v5 https://github.com/sbwml/luci-app-mosdns.git sbwml-packages
 #cp -r sbwml-packages/luci-app-mosdns openwrt-packages/luci-app-mosdns
 #cp -r sbwml-packages/v2dat openwrt-packages/v2dat
