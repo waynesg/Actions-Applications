@@ -31,7 +31,7 @@ jobs:
           chmod +x fetch.sh && ./fetch.sh
 
       - name: Build
-        uses: openwrt/gh-action-sdk@master
+        uses: openwrt/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}
           KEY_BUILD: ${{ secrets.KEY_BUILD }}
