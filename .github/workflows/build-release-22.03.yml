@@ -30,7 +30,7 @@ jobs:
         run: |
           chmod +x fetch.sh && ./fetch.sh
 
-      - name: Build
+      - name: Build 
         uses: openwrt/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}
