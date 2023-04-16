@@ -5,9 +5,7 @@ get_latest_release() {
 }
 mkdir openwrt-packages
 
-#git clone https://github.com/waynesg/luabitop luabitop
-#cp -r luabitop openwrt-packages/luabitop
-#rm -rf luabitop
+git clone -b js --depth 1 https://github.com/waynesg/OpenWrt-Software
 
 #git clone --depth=1 --branch v5 https://github.com/sbwml/luci-app-mosdns.git sbwml-packages
 #cp -r sbwml-packages/luci-app-mosdns openwrt-packages/luci-app-mosdns
