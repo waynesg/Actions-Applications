@@ -38,7 +38,7 @@ jobs:
           INDEX: 0
           IGNORE_ERRORS: 1
           PACKAGES: |
-            luci-app-tn-netports
+            luci-app-argon-config
 
       - name: List files
         run: |
