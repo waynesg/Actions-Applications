@@ -39,6 +39,8 @@ jobs:
           IGNORE_ERRORS: 1
           PACKAGES: |
             luabitop
+            luci-app-tn-netports
+            luci-app-temp-status
 
       - name: List files
         run: |
