@@ -40,9 +40,45 @@ jobs:
           INDEX: 0
           IGNORE_ERRORS: 1
           PACKAGES: |
-            luabitop
+            luci-app-advanced
+            luci-app-airconnect
+            luci-app-alist
+            luci-app-argon-config
+            luci-app-autotimeset
+            luci-app-bypass
+            luci-app-cloudflarespeedtest
+            luci-app-control-speedlimit
+            luci-app-control-timewol
+            luci-app-control-webrestriction
+            luci-app-control-weburl
+            luci-app-dependence
+            luci-app-diskman
+            luci-app-fileassistant
+            luci-app-internet-detector
+            luci-app-mosdns
+            luci-app-msd_lite
+            luci-app-netspeedtest
+            luci-app-oaf
+            luci-app-onliner
+            luci-app-openvpn-server
+            luci-app-parentcontrol
+            luci-app-passwall
+            luci-app-passwall2
+            luci-app-pushbot
+            luci-app-smartdns
+            luci-app-socat
+            luci-app-ssr-plus
             luci-app-tn-netports
             luci-app-temp-status
+            luci-app-turboacc
+            luci-app-unblockneteasemusic
+            luci-app-usb-printer
+            luci-app-vsftpd
+            luci-app-vssr
+            luci-app-wizard
+            luci-app-wrtbwmon
+            luci-app-zerotier
+            luci-theme-argon
 
       - name: List files
         run: |
