@@ -42,6 +42,52 @@ jobs:
           INDEX: 0
           IGNORE_ERRORS: 1
           PACKAGES: |
+            alist
+            airconnect
+            internet-detector
+            luci-lib-ipkg
+            mosdns
+            v2dat
+            homebox
+            oaf
+            open-app-filter
+            smartdns
+            socat
+            wrtbwmon
+            brook
+            chinadns-ng
+            dns2socks
+            dns2tcp
+            dnsforwarder
+            hysteria
+            ipt2socks
+            kcptun
+            lua-maxminddb
+            lua-neturl
+            microsocks
+            msd_lite
+            naiveproxy
+            node-request
+            pdnsd-alt
+            redsock2
+            shadowsocks-rust
+            shadowsocksr-libev
+            fast-classifier
+            shortcut-fe
+            simulated-driver
+            simple-obfs
+            sing-box
+            ssocks
+            tcping
+            trojan-go
+            trojan-plus
+            trojan
+            v2ray-core
+            v2ray-geodata
+            v2ray-plugin
+            vsftpd-alt
+            xray-core
+            xray-plugin
             luci-app-advanced
             luci-app-airconnect
             luci-app-alist
@@ -53,7 +99,6 @@ jobs:
             luci-app-control-timewol
             luci-app-control-webrestriction
             luci-app-control-weburl
-            luci-app-dependence
             luci-app-diskman
             luci-app-fileassistant
             luci-app-internet-detector
