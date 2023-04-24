@@ -5,7 +5,7 @@ get_latest_release() {
 }
 mkdir openwrt-packages
 
-git clone --depth=1 https://github.com/waynesg/OpenWrt-Software.git;js openwrt-packages
+git clone --depth=1 --branch js https://github.com/waynesg/OpenWrt-Software.git openwrt-packages
 
 #git clone --depth=1 --branch v5 https://github.com/sbwml/luci-app-mosdns.git sbwml-packages
 #cp -r sbwml-packages/luci-app-mosdns openwrt-packages/luci-app-mosdns
