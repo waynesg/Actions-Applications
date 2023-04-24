@@ -43,7 +43,7 @@ jobs:
           IGNORE_ERRORS: 1
           PACKAGES: |
             alist
-            airconnect
+            #airconnect
             internet-detector
             luci-lib-ipkg
             mosdns
@@ -89,7 +89,7 @@ jobs:
             xray-core
             xray-plugin
             luci-app-advanced
-            luci-app-airconnect
+            #luci-app-airconnect
             luci-app-alist
             luci-app-argon-config
             luci-app-autotimeset
