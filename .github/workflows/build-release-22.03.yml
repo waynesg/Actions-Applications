@@ -1,16 +1,17 @@
 name: Openwrt Build Bot for 22.03
 on:
-  push:
-    branches: main
-    paths:
-      - '**'
-      - '!README.md'
-      - '!.gitignore'
-      - '!.github/workflows/build-release-21.02.yml'
-      - '!.github/workflows/build-snapshot.yml'
-      - '!.github/workflows/build-immortalwrt-snapshot.yml'
-      - '!fetch.sh'
-      - '!build.sh'
+   workflow_dispatch:
+#  push:
+#    branches: main
+#    paths:
+#      - '**'
+#      - '!README.md'
+#      - '!.gitignore'
+#      - '!.github/workflows/build-release-21.02.yml'
+#      - '!.github/workflows/build-snapshot.yml'
+#      - '!.github/workflows/build-immortalwrt-snapshot.yml'
+#      - '!fetch.sh'
+#      - '!build.sh'
   schedule:
   - cron: 0 17 * * 5
 
