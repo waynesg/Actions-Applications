@@ -1,9 +1,9 @@
 name: Openwrt Build Bot for 22.03
 on:
    workflow_dispatch:
-#  push:
-#    branches: main
-#    paths:
+  push:
+    branches: main
+    paths:
 #      - '**'
 #      - '!README.md'
 #      - '!.gitignore'
